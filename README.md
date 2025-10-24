@@ -10,4 +10,3 @@ Clone the repository and apply it with chezmoi:
 chezmoi init gvnadir/dotfiles-windows
 chezmoi apply
 ```
-```
