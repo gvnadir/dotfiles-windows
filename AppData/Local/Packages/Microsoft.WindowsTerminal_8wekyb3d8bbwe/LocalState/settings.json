@@ -2,7 +2,7 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
-    "alwaysShowTabs": true,
+    "alwaysShowTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -22,7 +22,7 @@
             "keys": "alt+shift+d"
         }
     ],
-    "launchMode": "focus",
+    "launchMode": "default",
     "newTabMenu": 
     [
         {
@@ -35,8 +35,9 @@
         "defaults": 
         {
             "bellStyle": "window",
-            "colorScheme": "Catppuccin Mocha",
-            "elevate": false
+            "colorScheme": "CGA",
+            "elevate": false,
+            "opacity": 100
         },
         "list": 
         [
@@ -54,18 +55,18 @@
                 "name": "Command Prompt"
             },
             {
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "CGA",
                 "cursorHeight": 20,
                 "cursorShape": "vintage",
                 "elevate": false,
                 "font": 
                 {
-                    "face": "Hack Nerd Font"
+                    "face": "CaskaydiaCove Nerd Font"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "opacity": 95,
+                "opacity": 100,
                 "padding": "8",
                 "source": "Windows.Terminal.PowershellCore",
                 "useAcrylic": false
@@ -134,10 +135,10 @@
             "yellow": "#F9E2AF"
         }
     ],
-    "showTabsInTitlebar": true,
+    "showTabsInTitlebar": false,
     "showTerminalTitleInTitlebar": true,
     "tabWidthMode": "equal",
-    "theme": "Catppuccin Mocha",
+    "theme": "dark",
     "themes": 
     [
         {
