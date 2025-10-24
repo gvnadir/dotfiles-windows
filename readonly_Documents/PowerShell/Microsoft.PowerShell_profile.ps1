@@ -1,4 +1,4 @@
-Invoke-Expression (&starship init powershell)
+# Invoke-Expression (&starship init powershell)
 
 Set-Alias -Name fa -Value Find-App
 Set-PSReadLineOption -PredictionSource None
